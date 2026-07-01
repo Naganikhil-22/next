@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+}
+
+.one{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.two{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.three{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="one">HTML</div>
+    <div class="two">CSS</div>
+    <div class="three">JS</div>
+</div>
+
+</body>
+</html>
